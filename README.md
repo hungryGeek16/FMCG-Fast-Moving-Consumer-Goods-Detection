@@ -10,7 +10,7 @@
 
 * Please make sure that python version is 3.7(conda env is recommended).Clone this repository and install requirements as shown below:
 ```bash
-git clone 
+git clone https://github.com/rahulmangalampalli/FMCG-Fast-Moving-Consumer-Goods-Detection.git
 pip3 install -r requirements.txt
 pip3 install 'git+https://github.com/facebookresearch/detectron2.git' 
 ```
