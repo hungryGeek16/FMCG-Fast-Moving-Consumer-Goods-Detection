@@ -1,4 +1,4 @@
-## Fully Convolutional One-Stage Object Detection(FCOS):
+# Fully Convolutional One-Stage Object Detection(FCOS):
 
 * This method do not use anchors , which means there would be no RPN layer, which implies no in between IOU thresholding calculations invovled. So, it's basic structure consists 4 modules:
 
@@ -13,7 +13,7 @@
 * **These modules can be visualized as given in the diagram below:**
 
 <p align="center">
-  <img src="images/1.png" width = 480>
+  <img src="images/1.png" width = 1000>
 </p>
 
 
@@ -61,5 +61,5 @@ Centerness formula: sqrt([min(l,r)/max(l,r)] x [min(t,b)/max(t,b)])
 * Low precision, which means lower accuracy.
 
 * Detection quality is low when there are overlapping objects.
-* 
+
 * **FCOS:** [Paper](https://arxiv.org/pdf/1904.01355.pdf)
