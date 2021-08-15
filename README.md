@@ -12,7 +12,7 @@
 ```bash
 git clone 
 pip3 install -r requirements.txt
-pip3 install 'git+https://github.com/facebookresearch/detectron2.git' ##
+pip3 install 'git+https://github.com/facebookresearch/detectron2.git' 
 ```
 * We'll call this repository folder as the ROOT folder.
 
