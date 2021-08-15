@@ -39,6 +39,8 @@ pip3 install 'git+https://github.com/facebookresearch/detectron2.git' ##
 
 ## 3. Model Training and inference
 
+* Step 2 can be skipped if necessary, since instances_train.json and instances_test.json are already provided.
+
 * Install adelaidet as given below:
 
 ```bash
@@ -51,7 +53,7 @@ python3 setup.py build develop
 ```bash
 python3 train.py --cpu #For cpu training, remove "--cpu" to switch to gpu
 ```
-* A colab version of training with gpu can be found [here]().
+* A colab version of training with gpu can be found [here]().(Recommended)
 
 ## 4. Inference
 
