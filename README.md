@@ -56,7 +56,7 @@ python3 train.py --cpu #For cpu training, remove "--cpu" to switch to gpu
 
 ## 4. Inference
 
-* Download model file from [here](https://drive.google.com/file/d/1-1DDG3GTOjV-kSrAIhVn5e8GU8Ofz-KP/view?usp=sharing) and keep it in the ROOT folder.
+* Download model file from [here](https://drive.google.com/file/d/17YUKKcbl1eI40nzI_UwYoOTsuVMKstnB/view?usp=sharing) and keep it in the ROOT folder.
 
 * Inference on cpu:
 
