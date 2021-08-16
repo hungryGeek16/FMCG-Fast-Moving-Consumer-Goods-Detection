@@ -17,7 +17,7 @@ pip3 install 'git+https://github.com/facebookresearch/detectron2.git'
 
 ## 2. Dataset Preparation
 
-* This repository supports coco format datasets. Download dataset and annotations from [here](https://drive.google.com/file/d/1wldHgFHWn5ucErTWCytP2wozZdJWzoIF/view?usp=sharing) and keep them in ROOT folder. 
+* This repository supports coco format datasets. Download dataset and annotations from [here](https://drive.google.com/file/d/1_Mm1nQj7SFFSCbsXTcSqJh694-2CRPu9/view?usp=sharing) and keep them in ROOT folder. 
 
 * After downloading the data, extract files from it. It's structure is shown below:
 ```bash
