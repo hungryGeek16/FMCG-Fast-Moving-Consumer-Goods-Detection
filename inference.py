@@ -43,7 +43,7 @@ grocery_metadata = MetadataCatalog.get("grocery_test")
 cfg = get_cfg()
 cfg.merge_from_file("AdelaiDet/configs/FCOS-Detection/MS_R_50_2x.yaml")
 cfg.MODEL.ROI_HEADS.NUM_CLASSES = 1
-cfg.MODEL.WEIGHTS = "model_grocery_20k.pth"  # path to the model we trained
+cfg.MODEL.WEIGHTS = "model_final.pth"  # path to the model we trained
 cfg.MODEL.ROI_HEADS.SCORE_THRESH_TEST = 0.5
 cfg.MODEL.FCOS.INFERENCE_TH_TEST = 0.4
 cfg.MODEL.DEVICE='cpu'
