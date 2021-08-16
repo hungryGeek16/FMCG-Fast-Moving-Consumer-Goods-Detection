@@ -1,8 +1,7 @@
 # FMCG-Fast-Moving-Consumer-Goods-Detection
 
-* This repository implements three detection algorithms on the given dataset and compares their performance. Details about preprocessing and different model architecture explanation has been discussed over here.
+* This repository implements FCOS(**F**ully **C**onvolutional **O**nes **S**tage object detection) on the given dataset. Details about preprocessing and different model architecture explanation has been discussed over [here]().
 * Model which gave the best mAP score on test set was chosen. Please refer the documentation below to quickly start with data preparation, training and inference.
-* Final model used for inference is FCOS(**F**ully **C**onvolutional **O**nes **S**tage object detection)
 * Current implementation is based on [Adelaidet](https://github.com/aim-uofa/AdelaiDet) framework which is based on detectron2.
 * Tested CPU version successfully on **Ubuntu 16.04** and GPU version on **Ubuntu 18.04**(Colab Version).
 
